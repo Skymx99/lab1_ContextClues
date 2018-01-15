@@ -1,0 +1,12 @@
+body {
+    background-image: url(https://www.escaperoomla.com/wp-content/uploads/2016/11/the-detective-1.png);
+}
+
+h3 {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    display: inline-flex;
+    margin-left: 25px;
+    background-color: rgba(128, 128, 128, 0.507);
+    
+}

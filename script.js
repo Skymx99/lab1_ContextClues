@@ -4,7 +4,7 @@ var weapon = ['Baseball Bat', 'Brick', 'Golf Club', 'Lead Pipe', 'TV Remote', 'P
 
 
 
-for (var i = 0; i < 100; i++) {
+for (var i = 1; i < 101; i++) {
     var h3 = document.createElement("h3");
     document.body.appendChild(h3)
     h3.innerText = 'Accusation ' + i + ':';
@@ -21,7 +21,7 @@ function getItems (i) {
     return getAlert;
 
     function getAlert() {
-        alert('I accuse ' + friends[i%5] + ', with the ' + weapon[i%20] + ' in the ' + locations[i%10] + '!');
+        alert('I accuse ' + friendsAll + ', with the ' + weaponAll + ' in the ' + locationsAll + '!');
     }
 }
 
