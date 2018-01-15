@@ -5,8 +5,8 @@ body {
 h3 {
     color: rgba(255, 255, 255, 0.5);
     font-size: 20px;
-    display: inline-flex;
     margin-left: 25px;
     background-color: rgba(128, 128, 128, 0.507);
+    justify-content: flex-end;
     
 }
